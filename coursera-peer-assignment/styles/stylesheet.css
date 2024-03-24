@@ -1,0 +1,117 @@
+/* basic page layout */
+body {
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #134932;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #26877f;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+/* let the styling begin! */
+
+.promotion {
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/2968327/pexels-photo-2968327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+    .promotion > p {
+        font-size: xx-large;
+    }
+
+a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background-color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    margin: 1% 1% 5% 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    transition: transform .6s;
+}
+
+.info > p {
+    font-size: large;
+    color: #134932;
+}
+
+article > img {
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.copyright {
+    text-align: right;
+    padding-bottom: 5rem;
+    font-size: small;
+}
+
+hr {
+    border-color: #26877f;
+}
+
+article:hover {
+    box-shadow: 1px 5px 15px rgb(196, 165, 127);
+    transform: scale(1.05);
+}
